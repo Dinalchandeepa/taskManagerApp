@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base gradient background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="135"
+                android:startColor="#E0E0E0"
+                android:endColor="#C0C0C0" />
+        </shape>
+    </item>
+
+    <!-- Subtle texture overlay -->
+    <item>
+        <bitmap
+            android:src="@drawable/noise_texture"
+            android:tileMode="repeat"
+            android:alpha="0.05" />
+    </item>
+
+    <!-- Subtle vignette effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="100%p"
+                android:startColor="#00000000"
+                android:endColor="#22000000"
+                android:centerX="0.5"
+                android:centerY="0.5" />
+        </shape>
+    </item>
+</layer-list>

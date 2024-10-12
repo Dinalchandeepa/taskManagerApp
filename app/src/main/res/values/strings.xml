@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FocusBlade</string>
+    <string name="channel_name">Timer Notifications</string>
+    <string name="channel_description">Notifications for timer completion</string>
+</resources>

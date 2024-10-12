@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="samurai_red">#8B0000</color>
+    <color name="samurai_red_dark">#660000</color>
+    <color name="samurai_gold">#9E8A1B</color>
+    <color name="samurai_gold_dark">#D1A022</color>
+    <color name="samurai_blue">#4682B4</color>
+    <color name="background_dark">#121212</color>
+    <color name="text_light">#015E6A</color>
+    <color name="light_gray">#CCCCCC</color>
+
+
+</resources>
